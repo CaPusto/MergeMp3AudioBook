@@ -1,2 +1,2 @@
 # MergeMp3AudioBook
-A program for combining audiobooks mp3-files into a single M4A file.
+A simple tool to combine audiobook MP3 files into an M4A file with proper chapters.
