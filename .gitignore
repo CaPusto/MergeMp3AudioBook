@@ -1,0 +1,8 @@
+Converter
+Converter.exe
+converter
+converter.exe
+*.log
+conversion.txt
+bin/
+pkg/
