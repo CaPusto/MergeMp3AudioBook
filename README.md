@@ -85,6 +85,25 @@ You will need **Go** installed on your system (version 1.20 or newer).
 
 If an unexpected error occurs during processing, you can find a granular FFmpeg execution report stored in the `conversion.log` file generated in the application's root directory.
 
+### 🌐 Command-Line Arguments & Language Fallback
+
+The application features a smart language fallback system:
+- It automatically detects your operating system's language and activates the **Russian** interface if a Russian locale is found.
+- For **all other system languages**, it gracefully defaults to **English**.
+
+You can explicitly override this behavior and force the user interface to load in your preferred language using the `--locale` command-line argument:
+
+- **Force Russian Interface:**
+  ```bash
+  ./Converter --locale ru
+  ```
+- **Force English Interface:**
+  ```bash
+  ./Converter --locale en
+  ```
+
+*Note: This argument works identically across all supported platforms (Windows, Linux, and macOS).*
+
 ## 💬 Feedback & Support
 
 I would be incredibly happy if this application proves useful to you for managing your audiobook library! If you encounter any bugs, have questions, or want to suggest new features, please feel free to open an **[Issue](https://github.com/CaPusto/MergeMp3AudioBook/issues)**. 
