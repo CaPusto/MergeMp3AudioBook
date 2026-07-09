@@ -50,7 +50,7 @@ You will need **Go** installed on your system (version 1.20 or newer).
 
 1. Clone the repository and navigate into the project directory:
    ```bash
-   git clone https://github.com
+   git clone https://github.com/CaPusto/MergeMp3AudioBook
    cd MergeMp3AudioBook
    ```
 
