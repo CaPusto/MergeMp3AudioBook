@@ -33,7 +33,7 @@ jobs:
           go-version: '1.21'
 
       - name: Install Fyne-cross
-        run: go install ://github.com
+        run: go install ://github.com/fyne-io/fyne-cross
 
       - name: Build Application
         run: |
